@@ -57,7 +57,7 @@ int main(){
     b1.get_values();
     b2.get_values();
 
-    
+
     return 0;
 }
 
