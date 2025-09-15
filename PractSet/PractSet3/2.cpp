@@ -19,6 +19,17 @@ int main(){
 
     BankAccount b1;
     
-    
+    float bal;
+    cout<<"Enter the balance to Update: ";
+    cin>>bal;
+
+    if(bal>=0){
+        b1.setBalance(bal); 
+        b1.getBalance();
+    }
+    else{
+        cout<<"Balance Cannot Be -ve";
+    }
+
     return 0;
 }
