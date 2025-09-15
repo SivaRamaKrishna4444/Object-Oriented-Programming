@@ -36,9 +36,10 @@ class Students : public University{
 
 int main(){
     // University m1("Siva",42),m2("Rama",24),m3("Krishna",02);
-    Students s1("Siva",1,"CDS"),s2("Rama",2,"SCDS");
+    Students s1("Siva",1,"CDS"),s2("Rama",2,"SCDS"),s3("ujjwal",4,"scds");
     s1.get_studentdetails();
     s2.get_studentdetails();
+    
 
     return 0;
 }
